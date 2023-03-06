@@ -85,7 +85,7 @@ header nav div{
   align-self: flex-end;
 }
 
-.card{
+.c-2 .card{
   background-color: white;
   width: calc(30vw / 2);
   height: 40vh;
@@ -133,3 +133,35 @@ header nav div{
 }
 
 /*CONTAINER 4*/
+
+.c-4{
+  background-color: rgb(151, 146, 228);
+  width: 100vw;
+  height: 1000px;
+  margin-top: 50px;
+}
+
+.c-4 .container{
+  background-color: darkolivegreen;
+  width: 60vw;
+  margin-top: 50px;
+}
+
+.c-4 .c-title{
+  background-color: blue;
+  width: 30vw;
+  height: 5vh;
+}
+
+.c-4 .c-card{
+  justify-content: space-between;
+}
+
+.c-4 .card{
+  background-color: white;
+  width: calc(58vw / 3);
+  height: 40vh;
+  border-radius: 10px;
+}
+
+/*CONTAINER 5*/
