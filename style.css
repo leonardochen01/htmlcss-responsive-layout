@@ -165,3 +165,91 @@ header nav div{
 }
 
 /*CONTAINER 5*/
+
+.c-5{
+  background-color: bisque;
+  width: 60vw;
+  margin-top: 50px;
+}
+
+.c-5 .col1{
+  background-color: cyan;
+  width: 40vw;
+  padding-left: 40px;
+}
+
+.c-5 .col2{
+  background-color: burlywood;
+  width: 20vw;
+}
+
+.c-5 .title{
+  background-color: blueviolet;
+  width: 20vw;
+  height: 10vh;
+}
+
+.c-5 .text1{
+  background-color: darkgoldenrod;
+  width: auto;
+  height: 20vh;
+}
+
+.c-5 .text2{
+  background-color: gold;
+  width: auto;
+  height: 20vh;
+}
+
+/*CONTAINER 6*/
+
+.c-6{
+  background-color: rgb(151, 146, 228);
+  width: 100vw;
+  height: 50vh;
+  margin-top: 100px;
+}
+
+.c-6 .container{
+  background-color: darkolivegreen;
+  width: 30vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+.c-6 .title1{
+  background-color: crimson;
+  width: 10vw;
+  height: 5vh;
+}
+
+.c-6 .title2{
+  background-color: darkgreen;
+  width: 20vw;
+  height: 8vh;
+}
+
+.c-6 .title3{
+  background-color: hotpink;
+  width: 20vw;
+  height: 10vh;
+}
+
+.c-6 .text1{
+  background-color: lightsalmon;
+  width: 20vw;
+  height: 8vh;
+}
+
+.c-6 .button{
+  background-color: white;
+  width: 10vw;
+  height: 7vh;
+  border-radius: 40px;
+}
+
+.c-6 .text2{
+  background-color: darkmagenta;
+  width: 20vw;
+  height: 5vh;
+}
