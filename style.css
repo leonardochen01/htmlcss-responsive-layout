@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+/*STYLE*/
+
+header{
+  background-color: rgb(0, 132, 253);
+  width: 100vw;
+  height: 5vh;
+
+}
