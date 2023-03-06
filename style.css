@@ -66,28 +66,28 @@ header nav div{
 }
 
 .c-2 .container{
-  width: 30vw;
+  width: 30%;
   height: 500px;
   margin-top: 50px;
 }
 
 .c-2 .col{
   background-color: cyan;
-  width: calc(30vw / 2);
+  width: calc(100% / 2);
   height: 60vh;
   border: 1px dotted black;
 }
 
 .c-2 .col .text1{
   background-color: burlywood;
-  width: calc(30vw / 2);
+  width: 100%;
   height: 20vh;
   align-self: flex-end;
 }
 
 .c-2 .card{
   background-color: white;
-  width: calc(30vw / 2);
+  width: 100%;
   height: 40vh;
   align-self: flex-end;
   border-radius: 20px;
@@ -252,4 +252,56 @@ header nav div{
   background-color: darkmagenta;
   width: 20vw;
   height: 5vh;
+}
+
+/*FOOTER*/
+
+footer{
+  background-color: rgb(51, 51, 51);
+  width: 100vw;
+  height: 10vh;
+}
+
+.footer-text{
+  background-color: khaki;
+  width: 20vw;
+  height: 10vh;
+}
+
+@media screen and (max-width:479px){
+  * {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .c-bar{
+    display: none;
+  }
+
+  .c-1{
+    display: block;
+  }
+
+  .c-1 .square{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .c-1 .square:first-child{
+    height: 300px;
+  }
+
+  .c-2{
+  height: 500px;
+  }
+
+  .c-2 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .c-2 .container .col{
+    width: 80%;
+    }
 }
