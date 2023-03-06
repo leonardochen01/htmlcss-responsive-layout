@@ -8,11 +8,74 @@
   display: flex;
 }
 
+.wrap{
+  flex-wrap: wrap;
+}
+
+.margin{
+  margin: 0 auto;
+}
+
 /*STYLE*/
 
-header{
+header nav{
   background-color: rgb(0, 132, 253);
   width: 100vw;
   height: 5vh;
-
 }
+
+header nav div{
+  background-color: rgb(0, 132, 253);
+  width: calc(100vw / 2);
+  height: 5vh;
+  border: 1px dotted black;
+}
+
+/*CONTAINER 1*/
+
+.c-1{
+  background-color: bisque;
+  width: 60vw;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1vw;
+}
+
+.square{
+  background-color: blueviolet;
+  width: 15vw;
+  height: 30vh;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.square:first-child{
+  background-color: blue;
+  width: 31vw;
+}
+
+/*CONTAINER 2*/
+
+.c-2{
+  background-color: rgb(151, 146, 228);
+  width: 100vw;
+  height: 70vh;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.c-2 .container{
+  width: 30vw;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.c-2 .col{
+  background-color: cyan;
+  width: calc(30vw / 2);
+  height: 60vh;
+  border: 1px dotted black;
+}
+
+/*CONTAINER 3*/
